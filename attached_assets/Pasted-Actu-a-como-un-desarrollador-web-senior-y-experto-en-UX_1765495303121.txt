@@ -1,0 +1,170 @@
+Actúa como un desarrollador web senior y experto en UX/UI especializado en sitios corporativos para despachos contables en México.
+
+Quiero que generes el código completo de un sitio web profesional y responsive en HTML5, CSS3 y JavaScript puro (sin frameworks) para un despacho contable.
+
+1. Estructura de archivos
+
+Genera el proyecto con estos archivos:
+
+index.html
+
+styles.css
+
+script.js
+
+En index.html debe estar enlazado styles.css y script.js.
+
+2. Información base (puedes dejar campos fáciles de cambiar)
+
+Nombre del despacho: Despacho Contable [NOMBRE]
+
+Ubicación: [CIUDAD], [ESTADO], México
+
+Idioma del contenido: español de México, tono formal, profesional y corporativo.
+
+3. Requisitos de diseño y UX
+
+Diseño limpio, moderno y corporativo.
+
+Paleta de colores sugerida: tonos azules y grises sobrios (puedes proponer una combinación elegante).
+
+Tipografía sans-serif profesional (ej. Roboto, Open Sans o similar mediante Google Fonts).
+
+Diseño responsive que se vea bien en móvil, tablet y escritorio.
+
+Menú fijo en la parte superior con navegación a secciones por ancla (scroll suave con JS).
+
+4. Secciones que debe incluir la página
+
+En el index.html crea, como mínimo, estas secciones, con texto en español:
+
+Header / Hero
+
+Logo de texto (por ahora solo texto, sin imagen obligatoria).
+
+Menú con enlaces a: Inicio, Servicios, Quiénes somos, Casos de éxito, Blog, Contacto.
+
+Hero con:
+
+Título principal (H1) con propuesta de valor clara, por ejemplo:
+“Contabilidad y estrategia fiscal para empresas y profesionales en [CIUDAD]”.
+
+Subtítulo de 1–2 líneas explicando qué hace el despacho y para quién.
+
+Botones de llamada a la acción (CTA):
+
+“Agendar asesoría”
+
+“Contactar por WhatsApp” (no es necesario que funcione WhatsApp real, solo el diseño del botón).
+
+Servicios
+Crea tarjetas o bloques para cada servicio, con título, breve descripción y bullets de beneficios:
+
+Contabilidad para personas físicas y morales.
+
+Declaraciones mensuales y anuales.
+
+Facturación electrónica y timbrado CFDI.
+
+Alta y cambios de régimen fiscal (incluyendo Régimen Simplificado de Confianza).
+
+Nómina y obligaciones patronales (IMSS, INFONAVIT).
+
+Asesoría y planeación fiscal.
+
+Regularización y atención a requerimientos del SAT.
+
+Quiénes somos
+
+Texto institucional breve sobre el despacho.
+
+Bloque con “Misión, Visión y Valores” en formato claro.
+
+Sección de “Nuestro equipo” con tarjetas genéricas para socios/contadores (nombre, cargo, breve descripción profesional).
+
+Casos de éxito / Testimonios
+
+De 3 a 4 testimonios ficticios pero realistas, que mencionen:
+
+Tipo de cliente (ej. pyme de servicios, profesional independiente).
+
+Problema (atraso con declaraciones, falta de orden, riesgo de multas).
+
+Resultado (regularización, mejora en control, reducción de riesgos).
+
+Metodología de trabajo / Cómo trabajamos
+Presenta el proceso en pasos visuales (ej. iconos o tarjetas numeradas):
+
+Diagnóstico inicial.
+
+Propuesta de servicio.
+
+Implementación y organización de la contabilidad.
+
+Acompañamiento y cumplimiento mensual/anual.
+
+Blog / Recursos
+
+Lista de 4–6 artículos sugeridos con títulos y una breve descripción (no hace falta el contenido completo), por ejemplo:
+
+“Obligaciones fiscales básicas de una pyme en México”.
+
+“Régimen Simplificado de Confianza: qué es y cuándo conviene”.
+
+“Errores comunes al emitir CFDI y cómo evitarlos”.
+
+Contacto
+
+Texto invitando a agendar una asesoría.
+
+Formulario con campos:
+
+Nombre completo
+
+Empresa (opcional)
+
+Correo electrónico
+
+Teléfono
+
+Tipo de servicio que necesita (select con opciones)
+
+Mensaje
+
+Botón de envío con texto tipo: “Enviar solicitud”.
+
+Un botón tipo “Contactar por WhatsApp” (solo estructura, sin funcionalidad real obligatoria).
+
+5. Comportamiento con JavaScript (script.js)
+
+Implementa con JavaScript:
+
+Efecto de scroll suave cuando se haga clic en los enlaces del menú que vayan a secciones internas.
+
+Validación básica del formulario de contacto (campos obligatorios: nombre, correo, mensaje).
+
+Un mensaje de éxito simple (por ejemplo, mostrar un alert o un mensaje debajo del formulario simulando que se envió correctamente).
+
+6. SEO básico y buenas prácticas
+
+En index.html incluye:
+
+Etiquetas <title> y <meta name="description"> optimizadas para algo como:
+
+Title: “Despacho contable en [CIUDAD] | Contabilidad y asesoría fiscal profesional”
+
+Description: “Servicios de contabilidad, declaraciones, facturación electrónica y asesoría fiscal para personas físicas y morales en [CIUDAD], México. Cumplimiento ante el SAT con respaldo profesional.”
+
+Uso adecuado de encabezados: 1 solo <h1> en el hero y luego <h2>, <h3> en el resto.
+
+Atributos alt en imágenes (si agregas imágenes de ejemplo).
+
+7. Estilo del código
+
+Código ordenado, con indentación clara y comentarios breves donde sea necesario.
+
+Separar estilos en styles.css (no usar estilos inline).
+
+No usar frameworks (no Bootstrap, no Tailwind, no React).
+
+Asegúrate que el diseño sea visualmente atractivo pero sobrio y corporativo.
